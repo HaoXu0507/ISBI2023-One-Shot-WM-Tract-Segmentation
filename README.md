@@ -29,7 +29,7 @@ You can prepare datasets by yourself or follow the following steps.
 * Download Human Connectome Project (HCP) datasets.
 1. Register a HCP account: [HCP](https://db.humanconnectome.org/)
 2. Enable Amazon S3 Access: [AWS](https://wiki.humanconnectome.org/display/PublicData/How+To+Connect+to+Connectome+Data+via+AWS)
-3. Download HCP datasets by running [download_HCP_1200_diffusion_mri.py](/download_HCP_1200_diffusion_mri.py):
+3. Download HCP datasets by running [download_HCP_1200_diffusion_mri.py](/download_HCP_1200_dMRI.py):
 
 ``python /download_HCP_1200_diffusion_mri.py --id your_aws_id --key your_aws_key --out_dit your_hcp_dir``
 * Download Corresponding WM tract labels from [Zenodo](https://zenodo.org/record/1477956#.ZBQ5wHZByNc).
