@@ -189,8 +189,8 @@ def model_train(args, data_loader,  optimizer, train_subjects, start_epoch=0):
         hour = int(run_time/3600)
         minute = int((run_time-hour*3600)/60)
         print("epoch {} running time {}h {}min".format(epoch_nr,hour,minute))
-# Step_3 train
 
+# Step_3 train
 def model_pseudo_label_train_weight(args, data_loader,  optimizer, train_subjects, start_epoch=0):
 
     batch_size = args.batch_size
@@ -432,7 +432,7 @@ if __name__ == '__main__':
                   'ST_PREF_right', 'ST_PREM_left', 'ST_PREM_right', 'ST_PREC_left', 'ST_PREC_right', 'ST_POSTC_left',
                   'ST_POSTC_right', 'ST_PAR_left', 'ST_PAR_right', 'ST_OCC_left', 'ST_OCC_right']
 
-    fixed_subject = ['992774']
+    fixed_subject = '992774'
     moving_subjects = ['991267', '987983', '984472', '983773', '979984', '978578', '965771', '965367',
                        '959574', '958976', '957974', '951457', '932554', '930449', '922854', '917255', '912447',
                        '910241', '907656', '904044', \
