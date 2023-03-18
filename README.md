@@ -90,12 +90,19 @@ and finally, the peak data directory should look like:
     │   ├─peaks.nii.gz
 ## Training
 ### Step-1. Synthesize pseudo subjects
+* Train
+``python \code\engine.py --action step_1_train --step_1_ckpt_dir your_step_1_ckpt_dir --batch_size 1 --lr 0.001 --epoch 100 --model vm2 --sim_loss mse --alpha 0.02``
+* Generate pseudo data
+``python \code\engine.py --action step_1_generation --step_1_ckpt_dir your_step_1_ckpt_dir --step_1_pseudo_data_dir your_step_1_pseudo_data_dir``
 
 ### Step-2. Train on the only labeled subject
+``python \code\engine.py --action step_2_train --step_2_ckpt_dir your_step_2_ckpt_dir --batch_size 48 --lr 0.002 --epoch 200 --LOSS_WEIGHT 10 --LOSS_WEIGHT_LEN 200``
 
 ### Step-3. Train on pseudo subjects
+``python \code\engine.py --action step_3_train --step_1_pseudo_data_dir your_step_1_pseudo_data_dir --step_2_ckpt_dir your_step_2_ckpt_dir --step_3_ckpt_dir your_step_3_ckpt_dir --batch_size 48 --lr 0.001 --epoch 200 --LOSS_WEIGHT 10 --LOSS_WEIGHT_LEN 200``
 
 ## Testing
+``python \code\engine.py --action test --step_3_ckpt_dir your_step_3_ckpt_dir``
 
 ## Performance
 ### HCP Test Set
