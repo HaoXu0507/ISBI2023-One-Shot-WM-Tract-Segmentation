@@ -1,5 +1,5 @@
 # A REGISTRATION- AND UNCERTAINTY-BASED FRAMEWORK FOR WHITE MATTER TRACT SEGMENTATION WITH ONLY ONE ANNOTATED SUBJECT
->Hao Xu, Tengfei Xue, [Dongnan Liu](https://www.researchgate.net/profile/Dongnan-Liu), [Fan Zhang](https://scholar.harvard.edu/fanzhang), [Carl-Fredrik Westin](https://lmi.med.harvard.edu/people/carl-fredrik-westin), [Ron Kikinis](https://lmi.med.harvard.edu/people/ron-kikinis-md), [Lauren J. O’Donnell](https://scholar.harvard.edu/laurenjodonnell/biocv), and [Weidong Cai](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/tom-cai.html) 
+>[Hao Xu](https://haoxu0507.github.io/), Tengfei Xue, [Dongnan Liu](https://www.researchgate.net/profile/Dongnan-Liu), [Fan Zhang](https://scholar.harvard.edu/fanzhang), [Carl-Fredrik Westin](https://lmi.med.harvard.edu/people/carl-fredrik-westin), [Ron Kikinis](https://lmi.med.harvard.edu/people/ron-kikinis-md), [Lauren J. O’Donnell](https://scholar.harvard.edu/laurenjodonnell/biocv), and [Weidong Cai](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/tom-cai.html) 
 >
 >*The IEEE International Symposium on Biomedical Imaging (ISBI) 2023 ([arxiv](https://arxiv.org))*
 
