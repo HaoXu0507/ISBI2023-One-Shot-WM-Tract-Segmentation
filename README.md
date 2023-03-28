@@ -1,4 +1,4 @@
-# A REGISTRATION- AND UNCERTAINTY-BASED FRAMEWORK FOR WHITE MATTER TRACT SEGMENTATION WITH ONLY ONE ANNOTATED SUBJECT
+# A Registration- and Uncertainty-based Framework for White Matter Tract Segmentation With Only One Annotated Subject 
 >[Hao Xu](https://haoxu0507.github.io/), [Tengfei Xue](https://ieeexplore.ieee.org/author/37089306062), [Dongnan Liu](https://www.researchgate.net/profile/Dongnan-Liu), [Fan Zhang](https://scholar.harvard.edu/fanzhang), [Carl-Fredrik Westin](https://lmi.med.harvard.edu/people/carl-fredrik-westin), [Ron Kikinis](https://lmi.med.harvard.edu/people/ron-kikinis-md), [Lauren J. O’Donnell](https://scholar.harvard.edu/laurenjodonnell/biocv), and [Weidong Cai](https://weidong-tom-cai.github.io/) 
 >
 >*The IEEE International Symposium on Biomedical Imaging (ISBI) 2023 ([arxiv](https://arxiv.org/abs/2303.14371))*
@@ -136,3 +136,15 @@ and finally, the peak data directory should look like:
 
 ### Visualization
 ![Visualization](/visualization.png)
+
+## Citation
+
+```
+@inproceedings{Xu_2023_ISBI,
+  title={A Registration- and Uncertainty-based Framework for White Matter Tract Segmentation With Only One Annotated Subject },
+  author={Xu, Hao and Xue, Tengfei and Liu, Dongnan and Zhang, Fan and Westin, Carl-Fredrik and Kikinis, Ron and J. O'Donnell, Lauren and Cai, Weidong},
+  booktitle={2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)},
+  year={2023},
+  organization={IEEE}
+}
+```
