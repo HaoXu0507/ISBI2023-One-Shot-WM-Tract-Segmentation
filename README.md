@@ -9,7 +9,7 @@
 White matter (WM) tract segmentation based on diffusion magnetic resonance imaging (dMRI) plays an important role in the analysis of human health and brain diseases. However, the annotation of WM tracts is time-consuming and needs experienced neuroanatomists. In this study, to explore tract segmentation in the challenging setting of minimal annotations, we propose a novel framework utilizing only one annotated subject (subject-level one-shot) for tract segmentation. Our method is constructed by proposed registration-based peak augmentation (RPA) and uncertainty-based refining (URe) modules. Registration-based data augmentation is employed for synthesizing pseudo subjects and their corresponding labels to improve the tract segmentation performance. The proposed uncertainty-based refining module alleviates the negative influence of the low-confidence predictions on pseudo labels. Comparison results indicate the effectiveness of our proposed modules, by achieving accurate whole-brain tract segmentation with only one annotated subject.
 
 ## Get Started
-Our code is based on [TractSeg](https://github.com/MIC-DKFZ/TractSeg).
+
 
 ## Install
 * PyTorch >= 3.6
@@ -137,6 +137,8 @@ and finally, the peak data directory should look like:
 ### Visualization
 ![Visualization](/visualization.png)
 
+## Acknowledgement
+Our code is based on [TractSeg](https://github.com/MIC-DKFZ/TractSeg).
 ## Citation
 
 ```
